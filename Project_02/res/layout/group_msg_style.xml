@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+     >
+    <LinearLayout  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+            <TextView   android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/group_title"
+  android:text="分组名称: "
+  >
+  </TextView>
+   <EditText android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/group_text"
+  android:text="">
+  </EditText>
+    </LinearLayout>
+
+    <LinearLayout  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+        <TextView   android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/num_title"
+  android:text="最大数量: "
+  >
+  </TextView>
+   <EditText android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/max_num"
+  android:inputType="number"
+  android:text="">
+  </EditText>
+    
+    </LinearLayout>
+
+  
+</LinearLayout>

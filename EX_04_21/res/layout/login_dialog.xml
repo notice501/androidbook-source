@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView 
+        android:id="@+id/tvuser_name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="用户名："
+        android:gravity="left"
+		/>
+    <EditText
+        android:id="@+id/eduser_name"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+     	android:gravity="fill_horizontal"
+	 	/>
+    <TextView
+        android:id="@+id/tvuser_password"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="密码："
+        android:gravity="left"
+		/>
+    <EditText
+        android:id="@+id/eduser_password"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+		android:inputType="textPassword"
+        android:gravity="fill_horizontal"
+        />
+   
+</LinearLayout>
+

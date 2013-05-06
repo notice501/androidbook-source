@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:orientation="vertical">
+   <TextView android:id="@+id/name1" android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:text="请选择扫描模式" 
+  android:textSize="16dip" android:textStyle="bold"/>
+  <RadioGroup  
+   android:id="@+id/set_barcode" android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <RadioButton android:id="@+id/rb1" android:text="单次扫描" android:checked="true"/>
+  <RadioButton android:id="@+id/rb2" android:text="连续扫描"/>
+  </RadioGroup>
+  <TextView android:id="@+id/name" android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:text="请选择当前分组" 
+  android:textSize="16dip" android:textStyle="bold"/>
+ <ScrollView android:layout_width="fill_parent"
+  android:layout_height="wrap_content" >
+  <Spinner android:layout_width="fill_parent"
+  android:layout_height="wrap_content" android:id="@+id/select_group"/>  
+ </ScrollView>
+</LinearLayout>
+

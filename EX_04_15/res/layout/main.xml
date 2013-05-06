@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!-- 注意一定要把ListView控件放在最顶端，否则报错 -->
+    <ListView
+		android:id="@id/android:list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+		<!-- 将根布局的id设为指定格式 -->
+	<LinearLayout
+		android:id="@id/android:empty"
+		android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    >
+	    <EditText
+	    	android:id="@+id/et1"
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	/>
+		<EditText
+			android:id="@+id/et2" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="wrap_content" 
+		    />
+		<Button
+			android:id="@+id/bt"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="添加"
+			/>
+	</LinearLayout>
+</LinearLayout>

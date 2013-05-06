@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyTextView!</string>
+    <string name="app_name">TextView Demo</string>
+    <string name="first_link"><b>text1:</b>这是用第一种方式实现的超链接。你只要点击<!-- <b>标签设置粗体 -->
+      http://www.google.com ， 就会进入浏览器打开该网页，点击 google.com 也行。点击15145625689
+                就会拨打电话。
+    </string>
+    <string name="second_link"><b>text2:</b> 这是第二种方式实现的超链接，用一个
+      &lt;a&gt; 标签来声明。<a href="http://www.google.com">链接到google</a> <!-- &lt;a&gt用了尖括号的转义字符 -->
+                 用”tel“就可以链接到拨号 <a href="tel:123456789">拨打电话</a>.
+    </string>
+</resources>

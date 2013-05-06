@@ -1,0 +1,46 @@
+﻿<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
+<html>
+　　<head>
+　　<title>HTML标题</title>
+　　<script type="text/JavaScript">
+	function insertTableData(strJson){
+		var table=document.getElementById("myTable");
+		var arr=eval(strJson);
+		for(var i=0;i<arr.length;i++){
+			var obj=arr[i];
+			var row = table.insertRow(table.rows.length);
+			var td0=row.insertCell(0);
+			var td1=row.insertCell(1);
+			var td2=row.insertCell(2);
+			var td3=row.insertCell(3);
+			td0.innerHTML=obj.id;
+			td1.innerHTML=obj.name;
+			td2.innerHTML=obj.age;
+			td3.innerHTML=obj.address;			
+		}
+	}
+	function initJson(){
+		var data="[{id:1,name:'马龙',age:18,address:'中国上海'},{id:2,name:'马超',age:30,address:'中国深圳'},{id:3,name:'马丽',age:19,address:'中国武汉'}]"
+		insertTableData(data);
+	}
+　　</script>
+　　</head>
+<body onload="javascript:initJson()">
+	<TABLE   border=1 width=100% id=myTable>
+	  <TR>
+		<TD>编号</TD>
+		<TD>姓名</TD>
+		<TD>年龄</TD>
+		<TD>住址</TD>
+	  </TR>
+	  <TR>
+		<TD></TD>
+		<TD></TD>
+		<TD></TD>
+		<TD></TD>
+	  </TR>
+   </TABLE>
+   <input type="button" value="点击加载Android中Json字符串" onclick="javascript:pms.showAndroidJson()"/>
+</body>
+</html>
+

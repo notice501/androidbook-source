@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/tv"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="android属于哪家公司？"
+    />
+   <!-- 添加一个RadioGroup控件，垂直摆放 -->
+<RadioGroup
+	android:id="@+id/rg"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"	
+	>
+	<RadioButton
+		android:id="@+id/rb1"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="google"
+		/>
+	<RadioButton
+		android:id="@+id/rb2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="apple"
+		/>
+	<RadioButton
+		android:id="@+id/rb3"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text="microsoft"
+		/>
+</RadioGroup>		
+</LinearLayout>

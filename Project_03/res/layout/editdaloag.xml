@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+ >
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:orientation="horizontal" >  
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="货单编码:"
+  android:textColor="@color/black">
+  </TextView>
+  <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:id="@+id/code"
+  >
+  </EditText> 
+  </LinearLayout>
+  
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:orientation="horizontal" >  
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="取货地址:"
+  android:textColor="@color/black">
+  </TextView>
+  <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:id="@+id/sAddress"
+  >
+  </EditText> 
+  </LinearLayout>
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:orientation="horizontal" >  
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="发货地址:"
+  android:textColor="@color/black">
+  </TextView>
+  <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:id="@+id/dAddress"
+  >
+  </EditText> 
+  </LinearLayout>
+  <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:orientation="horizontal" >  
+  <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  android:text="联系电话:"
+  android:textColor="@color/black">
+  </TextView>
+  <EditText android:layout_width="fill_parent" android:layout_height="wrap_content"
+  android:id="@+id/phone"
+  >
+  </EditText> 
+  </LinearLayout>
+</LinearLayout>

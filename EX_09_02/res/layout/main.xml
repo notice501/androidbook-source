@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText
+	android:id="@+id/et"
+    android:layout_alignParentTop="true"
+    android:layout_width="fill_parent" 
+    android:layout_height="300dp"
+    />
+<TextView
+	android:id="@+id/tv"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_below="@id/et"
+	android:layout_alignParentLeft="true"
+	android:text="这里输出文件的内容"
+	/>
+<Button
+	android:id="@+id/bt_save"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:text="保存"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentRight="true"
+	/>
+<Button
+	android:id="@+id/bt_saveto"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:text="保存到sd卡"
+	android:layout_alignParentBottom="true"
+	android:layout_toLeftOf="@id/bt_save"
+	android:layout_marginRight="3dp"
+	/>
+<Button
+	android:id="@+id/bt_read"
+	android:layout_height="wrap_content"
+	android:layout_width="wrap_content"
+	android:text="读取文件"
+	android:layout_toLeftOf="@id/bt_saveto"
+	android:layout_alignParentBottom="true"
+	android:layout_marginRight="3dp"
+	/>
+</RelativeLayout>

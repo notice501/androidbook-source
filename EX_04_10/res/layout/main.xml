@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<DatePicker
+	android:id="@+id/dp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<TimePicker
+	android:id="@+id/tp"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+<Button
+	android:id="@+id/btdate"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="设置日期"
+	/>
+<Button
+	android:id="@+id/bttime"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="设置时间"
+	/>
+<TextView 
+	android:id="@+id/tvdate" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="设置后日期会显示在这里"
+    />
+<TextView
+	android:id="@+id/tvtime"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="设置后时间会显示在这里"
+	/>
+</LinearLayout>

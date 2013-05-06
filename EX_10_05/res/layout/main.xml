@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+	<Button android:layout_width="fill_parent" android:id="@+id/bt_open"
+		android:layout_height="wrap_content" android:text="打开Wifi" />
+	<Button android:layout_width="fill_parent" android:id="@+id/bt_close"
+		android:layout_height="wrap_content" android:text="关闭Wifi" />
+	<Button android:layout_width="fill_parent" android:id="@+id/bt_scan"
+		android:layout_height="wrap_content" android:text="获取附近热点" />
+	<ListView android:layout_width="fill_parent" android:id="@+id/lv_scanResult"
+		android:layout_height="wrap_content" />
+		
+		
+</LinearLayout>

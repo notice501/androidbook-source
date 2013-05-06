@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/tv"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<Button 
+	android:text="提示对话框" 
+	android:id="@+id/button_remind" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	/>
+<Button 
+	android:text="单选对话框" 
+	android:id="@+id/button_sichoice" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	/>
+<Button 
+	android:text="多选对话框" 
+	android:id="@+id/button_muchoice" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	/>
+<Button 
+	android:text="自定义登录对话框" 
+	android:id="@+id/button_login" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="s_install">本机程序</string>
+	<string name="s_appoint">APK扫描</string>
+	<string name="s_trust">信任程序</string>
+	<string name="s_result">扫描结果</string>
+	<string name="s_bt_install">扫描已安装程序</string>
+	<string name="s_bt_appoint">指定扫描</string>
+	<string name="s_bt_trust">删除已勾选程序</string>
+	<string name="s_bt_result">信任已勾选程序</string>
+
+	<string name="warn">标签之间用英文逗号隔开</string>
+	<string name="load">正在加载数据</string>
+	<string name="s_title_permission">程序重要权限信息</string>
+	<string name="s_title_prompt">提示信息</string>
+	<string name="s_title_warn">警告信息</string>
+	<string name="s_info_prompt">所有已安装程序处于[安全]级别</string>
+	<string name="s_info_warn">共有%d程序拥有监控和自动发短信的功能，请关注</string>
+</resources>

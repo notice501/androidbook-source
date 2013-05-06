@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:id="@+id/upload_setting"
+  android:orientation="vertical"
+  >
+  <TextView android:id="@+id/uploadtitle" android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="16dip"
+  android:textStyle="bold"
+  android:text="上传方式"/>
+  <RadioGroup android:id="@+id/uploadrgoup" android:orientation="vertical" android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <RadioButton android:id="@+id/rb1" android:text="本地存储" android:checked="true"/>
+  <RadioButton android:id="@+id/rb2" android:text="GPRS上传"/>
+  <RadioButton android:id="@+id/rb3" android:text="WIFI上传"/>  
+  </RadioGroup>
+    <TextView android:id="@+id/savetitle" android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="16dip"
+  android:textStyle="bold"
+  android:text="存储方式"/>
+  <RadioGroup android:id="@+id/savergoup" android:orientation="vertical"
+   android:layout_width="fill_parent"
+  android:layout_height="wrap_content"> 
+  <RadioButton android:id="@+id/rb1" android:text="上传后清空"/>
+  <RadioButton android:id="@+id/rb2" android:text="上传后保留" android:checked="true"/>
+  </RadioGroup>
+  <TextView android:id="@+id/repeattitle" android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:textSize="16dip"
+  android:textStyle="bold"
+  android:text="重复判断"/>
+  <RadioGroup android:id="@+id/repeatrgoup" android:orientation="vertical"
+   android:layout_width="fill_parent"
+  android:layout_height="wrap_content">
+  <RadioButton android:id="@+id/rb1" android:text="重复时提示"/>
+  <RadioButton android:id="@+id/rb2" android:text="重复时新增"/>
+  <RadioButton android:id="@+id/rb3" android:text="重复时替换" android:checked="true"/> 
+  </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView 
+        android:id="@+id/tvnew"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="新密码："
+        android:gravity="left"
+		/>
+    <EditText
+        android:id="@+id/etnew"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+     	android:gravity="fill_horizontal"
+	 	/>
+    <TextView
+        android:id="@+id/tvconfirm"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:text="确认密码："
+        android:gravity="left"
+		/>
+    <EditText
+        android:id="@+id/etconfirm"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:gravity="fill_horizontal"
+        />
+   
+</LinearLayout>
+

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="white">#FFFFFFFF</color>
+	<color name="black">#FF000000</color>
+	<color name="gray">#FFFFFFFF</color>
+	<color name="green">#FFFFFFFF</color>
+	<color name="item_bg_color">#FFFFFFFF</color>
+	<color name="item_color">#FF000000</color>
+	<color name="item_text_color">#FFFFFFFF</color>
+	<color name="skin_text_color">#FFFFFFFF</color>
+	<color name="splashBG">#FFFFFFFF</color>
+	<color name="transparent">#FFFFFFFF</color>
+	<color name="tabbg">#FFFFFFFF</color>
+	<color name="screen_bg">#FFf7f7f7</color>
+	<color name="list_select_bg_color">#fff7ebce</color>
+	<color name="list_state_color">#ffa59a8c</color>
+	<color name="list_title">#ff393939</color>
+	<color name="menufocused">#ffffff</color>
+	<color name="menuunfocused">#6B5131</color>
+	<color name="bookcontext">#73695A</color>
+</resources>

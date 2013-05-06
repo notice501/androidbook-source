@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 根标签必须selector，item标签定义不同的状态 -->
+<selector
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true" ><!-- 声明标签内为按下状态的效果 -->
+        <shape>
+        	<!-- 填充 -->
+            <solid android:color="#8B6914"/>
+            <stroke
+                android:width="2dp"
+                android:color="#8B0A50" />
+            <!-- 圆角，为四个角单独设置弧度 -->
+            <corners 
+                android:topRightRadius="6dp"
+                android:bottomLeftRadius="6dp"
+                android:topLeftRadius="0dp"
+                android:bottomRightRadius="0dp"
+            />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />  
+        </shape>
+    </item>
+
+    <item android:state_focused="true" ><!--声明标签内为选中状态 效果 -->
+        <shape>
+        	<!-- 渐变，angle为渐变角度，必须为45的倍数 -->
+            <gradient
+                android:startColor="#707070"
+                android:endColor="#7A67EE"
+                android:angle="90" />
+            <stroke
+                android:width="2dp"
+                android:color="#63B8FF" />
+            <corners
+                android:radius="2dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />             
+        </shape>
+    </item>
+
+    <item>       <!-- 默认状态 -->
+        <shape>
+            <!-- 渐变，四行属性依次为开始颜色，结束颜色，渐变类型为径向（默认为linear线性）
+            	径向渐变需指定半径 -->
+            <gradient
+                android:startColor="#FFFFFF"  
+                android:endColor="#000000"
+                android:type="radial"
+                android:gradientRadius="200" />
+            <!-- 描边，前两行属性为描边的宽度，颜色。后两行加入虚线效果，
+            	dashWidth代表虚线宽度，dashgap表示间隔长度 -->
+            <stroke
+                android:width="2dp"
+                android:color="#008B00"
+                android:dashWidth="5dp" 
+                android:dashGap="3dp" />
+            <!-- 圆角，属性为圆角弧度，角越大越圆 -->
+            <corners
+                android:radius="2dp" />
+            <padding
+                android:left="10dp"
+                android:top="10dp"
+                android:right="10dp"
+                android:bottom="10dp" />  
+        </shape>
+    </item>
+</selector>

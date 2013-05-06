@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView
+	android:id="@+id/tv"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="你现在的目标有哪些？"
+    />
+<CheckBox
+	android:id="@+id/cb1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="掌握android开发"
+	/>
+<CheckBox
+	android:id="@+id/cb2"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="找到更好的工作"
+	/>
+<CheckBox
+	android:id="@+id/cb3"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="身体健康最重要~"
+	/>
+<Button
+	android:id="@+id/bt"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="提交答案"
+	/>
+<TextView
+	android:id="@+id/tvresult"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

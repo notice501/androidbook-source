@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/rl"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+>
+	<Button
+		android:id="@+id/bt1"
+		android:text="以自己作为Anchor,不偏移"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+
+	<Button
+		android:id="@+id/bt2"
+		android:text="以自己为Anchor,偏移20,-20"
+		android:layout_below="@id/bt1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<Button
+		android:id="@+id/bt3"
+		android:text="以屏幕中心为参照,不偏移"
+		android:layout_below="@id/bt2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<Button
+		android:id="@+id/bt4"
+		android:text="以屏幕左上角为参照,偏移0,20(正好一个状态栏)"
+		android:layout_below="@id/bt3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+	<Button
+		android:id="@+id/bt5"
+		android:text="关闭窗口"
+		android:layout_centerInParent="true"
+		android:layout_alignParentBottom="true"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" />
+</RelativeLayout>

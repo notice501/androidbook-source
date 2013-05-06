@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:id="@+id/linear_foot" android:layout_height="wrap_content">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="80px" android:layout_height="wrap_content"
+		android:id="@+id/lin_install" android:background="@drawable/selector_top">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/s_install"
+			android:gravity="center" android:paddingTop="29px"
+			android:background="@drawable/home" />
+	</LinearLayout>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/line" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="80px" android:layout_height="wrap_content"
+		android:background="@drawable/selector_top" android:id="@+id/lin_appoint">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/s_appoint"
+			android:gravity="center" android:paddingTop="29px"
+			android:background="@drawable/appoint" />
+	</LinearLayout>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/line" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="80px" android:id="@+id/lin_trust"
+		android:layout_height="wrap_content" android:background="@drawable/selector_top">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/s_trust"
+			android:gravity="center" android:paddingTop="29px"
+			android:background="@drawable/trust" />
+	</LinearLayout>
+	<ImageView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:src="@drawable/line" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="80px" android:id="@+id/lin_result"
+		android:layout_height="wrap_content" android:background="@drawable/selector_top">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/s_result"
+			android:gravity="center" android:paddingTop="29px"
+			android:background="@drawable/result" />
+	</LinearLayout>
+</LinearLayout>

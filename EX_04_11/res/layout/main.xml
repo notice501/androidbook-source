@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <!--将图片设置为指定大小并保持宽高比  -->
+<ImageView
+	android:src="@drawable/icon"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:adjustViewBounds="true"
+	android:maxHeight="30dp"
+	android:maxWidth="30dp"
+	/>
+	<!--设置图片的填充方式为不按比例填满，这里将背景设为白色方便观察 -->
+<ImageView
+	android:id="@+id/iv2"
+	android:src="@drawable/icon"
+	android:background="#ffffff"
+	android:layout_width="150dp"
+	android:layout_height="100dp"
+	android:scaleType="fitXY"
+	/>
+	<!-- 设置图片填充方式为按比例拉伸图片填充到ImageView的右边，拉伸的高度为ImageView的高度 -->
+<ImageView
+	android:id="@+id/iv3"
+	android:src="@drawable/icon"
+	android:layout_marginTop="20dp"
+	android:background="#ffffff"
+	android:layout_width="150dp"
+	android:layout_height="100dp"
+	android:scaleType="fitEnd"
+	/>
+	<!-- 裁减图片宽高各裁10个像素 -->
+<ImageView
+	android:src="@drawable/icon"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="20dp"
+	android:cropToPadding="true"
+	android:scrollX="10px"
+	android:scrollY="10px"
+	/>   
+</LinearLayout>

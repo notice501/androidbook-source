@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">good good study day day up</string>
+	<string name="app_name">Internationalization</string>
+	<string name="land">这是land模式</string>
+	<string name="port">这是port模式</string>
+</resources>

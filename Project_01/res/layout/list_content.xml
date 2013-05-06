@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:focusable="false"
+	android:clickable="false" android:focusableInTouchMode="false">
+	<ImageView android:id="@+id/activityInfo_img"
+		android:layout_width="45px" android:layout_height="45px"
+		android:focusable="false" android:clickable="false"
+		android:focusableInTouchMode="false" />
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="230px" android:layout_height="wrap_content"
+		android:focusable="false" android:clickable="false"
+		android:focusableInTouchMode="false">
+		<TextView android:id="@+id/activityInfo_name"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF" android:textSize="16px"
+			android:focusable="false" android:clickable="false"
+			android:focusableInTouchMode="false" />
+		<TextView android:id="@+id/activityInfo_packageName"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:textColor="#FFFFFFFF" android:textSize="10px"
+			android:focusable="false" android:clickable="false"
+			android:focusableInTouchMode="false" />
+	</LinearLayout>
+	<CheckBox android:id="@+id/cb_cancel_trust"
+		android:layout_alignParentRight="true" android:layout_marginRight="1px"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:focusable="false" 
+		android:focusableInTouchMode="false" />
+</LinearLayout> 

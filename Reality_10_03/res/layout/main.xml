@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<!-- 用户可以输入城市拼音全拼来查询对应城市天气预报 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<EditText android:layout_width="200dp" android:id="@+id/et_city"
+			android:layout_height="wrap_content" />
+		<Button android:layout_width="fill_parent" android:id="@+id/bt_city"
+			android:text="确定" android:layout_height="wrap_content" />
+	</LinearLayout>
+	<!-- 该LinearLayout显示当前和今天的天气情况 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:layout_width="40dp" android:id="@+id/img_info1"
+			android:layout_height="40dp" />
+		<TextView android:layout_width="fill_parent" android:id="@+id/tv_info1"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<!-- 以下三个LinearLayout显示未来三天的天气情况 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:layout_width="40dp" android:id="@+id/img_info2"
+			android:layout_height="40dp" />
+		<TextView android:layout_width="fill_parent" android:id="@+id/tv_info2"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:layout_width="40dp" android:id="@+id/img_info3"
+			android:layout_height="40dp" />
+		<TextView android:layout_width="fill_parent" android:id="@+id/tv_info3"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:layout_width="40dp" android:id="@+id/img_info4"
+			android:layout_height="40dp" />
+		<TextView android:layout_width="fill_parent" android:id="@+id/tv_info4"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+</LinearLayout>

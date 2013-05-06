@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:umadsdk="http://schemas.android.com/apk/res/com.microdu.shield"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="fill_parent" android:id="@+id/lin_main"
+		android:layout_height="fill_parent">
+		<!-- 布局上面的功能按键 -->
+		<LinearLayout android:orientation="vertical" android:id="@+id/lin_bottom"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:gravity="bottom">
+			<!-- 引用外部top.xml文件 -->
+			<include layout="@layout/top" />
+		</LinearLayout>
+		<!-- 内容显示区域包括一个功能Button和一个ListView显示区域 -->
+		<LinearLayout android:orientation="vertical" android:id="@+id/lin_content"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<Button android:orientation="vertical" android:id="@+id/bt_handle"
+				android:layout_width="wrap_content" android:layout_height="wrap_content"
+				android:text="@string/s_bt_install" android:layout_gravity="right">
+			</Button>
+			<ListView android:orientation="vertical" android:id="@+id/lv_content"
+				android:layout_width="fill_parent" android:layout_height="fill_parent">
+			</ListView>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
